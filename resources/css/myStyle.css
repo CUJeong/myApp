@@ -1,0 +1,39 @@
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.nav-bar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-bar > a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn {
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: slateblue;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+}
+
+.btn:hover{
+    filter: brightness(120%);
+}
